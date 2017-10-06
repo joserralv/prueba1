@@ -1,0 +1,170 @@
+    1  2017-10-06 08:37:24 id
+    2  2017-10-06 08:38:50 history
+    3  2017-10-06 08:44:07 sed -i '/^HISTSIZE/s/1000/-1/' .bashrc
+    4  2017-10-06 08:48:14 sed -i '/^HISTFILESIZE/s/2000/-1/' .bashrc
+    5  2017-10-06 08:49:05 cat>>.bashrc
+    6  2017-10-06 08:51:31 grep HIST .bashrc
+    7  2017-10-06 08:54:32 . .bashrc
+    8  2017-10-06 08:54:38 history
+    9  2017-10-06 08:56:53 sudo apt-get update&&sudo apt-get -y upgrade
+   10  2017-10-06 08:59:19 sudo apt-get purge nano
+   11  2017-10-06 09:01:28 sudo apt-get install -y git
+   12  2017-10-06 09:10:28 git config --global user.name "Jose Ramon Lopez"
+   13  2017-10-06 09:10:59 git config --global user.email joserralv@gmail.com
+   14  2017-10-06 09:11:28 git config --list
+   15  2017-10-06 09:12:08 git help config
+   16  2017-10-06 09:12:37 sudo apt-get install -y man
+   17  2017-10-06 09:12:49 git help config
+   18  2017-10-06 09:18:36 mkdir git 
+   19  2017-10-06 09:19:05 mkdir git/proyecto1
+   20  2017-10-06 09:19:32 cd git/proyecto1
+   21  2017-10-06 09:20:05 ls -a
+   22  2017-10-06 09:20:16 git init
+   23  2017-10-06 09:20:21 ls -a
+   24  2017-10-06 09:20:28 find
+   25  2017-10-06 10:20:38 git status
+   26  2017-10-06 10:29:21 echo 'My Project'>README
+   27  2017-10-06 10:29:28 cat README
+   28  2017-10-06 10:29:35 git status
+   29  2017-10-06 10:30:01 git add README
+   30  2017-10-06 10:30:07 git status
+   31  2017-10-06 10:32:13 touch README2
+   32  2017-10-06 10:32:23 git status
+   33  2017-10-06 10:33:34 sed -i '/Project/s/t/t1/' README
+   34  2017-10-06 10:33:41 cat README
+   35  2017-10-06 10:33:54 git status
+   36  2017-10-06 10:35:48 git add README
+   37  2017-10-06 10:36:11 git status
+   38  2017-10-06 10:36:27 rm README2
+   39  2017-10-06 10:36:31 git status
+   40  2017-10-06 10:37:54 sed -i '/Project/s/j/y/' README
+   41  2017-10-06 10:38:00 git status
+   42  2017-10-06 10:38:22 git checkout -- README
+   43  2017-10-06 10:38:29 git status
+   44  2017-10-06 10:38:35 cat README
+   45  2017-10-06 10:39:54 git rm --cached README
+   46  2017-10-06 10:40:11 git status
+   47  2017-10-06 10:41:12 git add README
+   48  2017-10-06 10:41:17 git status
+   49  2017-10-06 10:43:29 cat .gitignore
+   50  2017-10-06 10:44:28 git add TEMPORAL
+   51  2017-10-06 10:45:06 touch TEMPORAL
+   52  2017-10-06 10:45:53 cat>>.gitignore TEMPORAL
+   53  2017-10-06 10:46:02 git status
+   54  2017-10-06 10:46:28 git add .gitignore
+   55  2017-10-06 10:46:35 git status
+   56  2017-10-06 10:47:30 mkdir carpeta
+   57  2017-10-06 10:47:48 mkdir carpeta/temp1
+   58  2017-10-06 10:48:01 mkdir carpeta/temp2
+   59  2017-10-06 10:48:29 cat>>.gitignore 
+   60  2017-10-06 10:48:48 git status
+   61  2017-10-06 10:48:58 ls
+   62  2017-10-06 10:49:52 touch TEMPORAL2
+   63  2017-10-06 10:49:56 ls
+   64  2017-10-06 10:50:44 ls carpeta
+   65  2017-10-06 10:51:11 rmdir carpeta/temp*
+   66  2017-10-06 10:51:24 touch carpeta/temp1
+   67  2017-10-06 10:51:34 touch carpeta/temp2
+   68  2017-10-06 10:51:48 ls carpeta
+   69  2017-10-06 10:51:56 cat .gitignore
+   70  2017-10-06 10:52:16 cat>>.gitignore 
+   71  2017-10-06 10:52:51 cat .gitignore
+   72  2017-10-06 10:52:58 git status
+   73  2017-10-06 10:53:15 git add .gitignore
+   74  2017-10-06 10:53:20 git status
+   75  2017-10-06 10:56:06 cat>>.gitignore
+   76  2017-10-06 10:56:26 git status
+   77  2017-10-06 10:56:40 git add .gitignore
+   78  2017-10-06 10:56:48 git status
+   79  2017-10-06 10:58:33 git add carpeta/
+   80  2017-10-06 10:58:38 git status
+   81  2017-10-06 10:59:37 rm README
+   82  2017-10-06 10:59:43 git status
+   83  2017-10-06 10:59:56 git checkout README
+   84  2017-10-06 11:00:01 git status
+   85  2017-10-06 11:02:06 cat>>.gitignore
+   86  2017-10-06 11:02:40 git add .gitignore
+   87  2017-10-06 11:02:43 git status
+   88  2017-10-06 11:03:16 cat .gitignore
+   89  2017-10-06 11:03:57 mkdir CARPETA
+   90  2017-10-06 11:04:09 touch CARPETA/TEMP1
+   91  2017-10-06 11:04:17 touch CARPETA/TEMP2
+   92  2017-10-06 11:04:32 cat>>.gitignore
+   93  2017-10-06 11:04:59 add .gitignore
+   94  2017-10-06 11:05:10 git add .gitignore
+   95  2017-10-06 11:05:15 git status
+   96  2017-10-06 11:06:36 git add CARPETA/
+   97  2017-10-06 11:06:41 git status
+   98  2017-10-06 11:09:12 git config --global core.editor vim
+   99  2017-10-06 11:10:27 git commit -m "Así es como me gusta"
+  100  2017-10-06 11:12:10 cd ..
+  101  2017-10-06 11:13:13 git clone https://github.com/schacon/simplegit-progit
+  102  2017-10-06 11:13:21 ls
+  103  2017-10-06 11:13:44 git clone https://github.com/schacon/simplegit-progit plagio
+  104  2017-10-06 11:13:49 ls
+  105  2017-10-06 11:14:06 ls plagio/
+  106  2017-10-06 11:15:42 cd proyecto1
+  107  2017-10-06 11:15:58 touch semeolvido.txt
+  108  2017-10-06 11:16:10 git add semeolvido.txt
+  109  2017-10-06 11:16:46 git commit --amend -m "se me olvidaba"
+  110  2017-10-06 11:17:05 git status
+  111  2017-10-06 11:19:45 git remote
+  112  2017-10-06 11:19:54 git remote -v
+  113  2017-10-06 11:19:59 cd ..
+  114  2017-10-06 11:20:09 git remote
+  115  2017-10-06 11:20:25 cd ../plagio/
+  116  2017-10-06 11:20:35 cd plagio/
+  117  2017-10-06 11:20:40 git remote
+  118  2017-10-06 11:20:50 git remote -v
+  119  2017-10-06 11:21:48 cd ../simplegit-progit/
+  120  2017-10-06 11:21:56 git remote -v
+  121  2017-10-06 11:22:05 cd ../proyecto1/
+  122  2017-10-06 11:25:32 git branch
+  123  2017-10-06 11:25:45 git branch testing
+  124  2017-10-06 11:25:52 git branch
+  125  2017-10-06 11:26:05 git checkout testing
+  126  2017-10-06 11:31:11 cat>README 
+  127  2017-10-06 11:31:30 git status
+  128  2017-10-06 11:31:42 git add README
+  129  2017-10-06 11:31:49 git status
+  130  2017-10-06 11:32:18 git commit -m loquesea
+  131  2017-10-06 11:32:31 git commit -m "Lo que sea"
+  132  2017-10-06 11:32:48 branch master
+  133  2017-10-06 11:33:03 git branch master
+  134  2017-10-06 11:33:21 git checkout master
+  135  2017-10-06 11:33:35 cat README
+  136  2017-10-06 11:33:57 git checkout testing
+  137  2017-10-06 11:34:02 cat README
+  138  2017-10-06 11:34:13 git checkout master
+  139  2017-10-06 11:34:27 git branch
+  140  2017-10-06 11:36:04 git merge testing
+  141  2017-10-06 11:36:18 cat README
+  142  2017-10-06 11:43:58 git branch --history
+  143  2017-10-06 11:49:10 git clone https://github.com/secobau/indra1
+  144  2017-10-06 11:49:29 cd indra1/
+  145  2017-10-06 11:49:44 touch hola
+  146  2017-10-06 11:49:49 git add hola
+  147  2017-10-06 11:50:02 git commit hola
+  148  2017-10-06 11:50:20 git commit "hola"
+  149  2017-10-06 11:50:34 git commit -m "hola"
+  150  2017-10-06 11:51:11 git push origin master
+  151  2017-10-06 12:09:37 git remote add origin https://github.com/joserralv/prueba1.git
+  152  2017-10-06 12:10:09 git push -u origin master
+  153  2017-10-06 12:11:10 remote add origen https://github.com/joserralv/prueba1
+  154  2017-10-06 12:11:38 git remote add origin https://github.com/joserralv/prueba1.git
+  155  2017-10-06 12:12:10 git remote add origin1 https://github.com/joserralv/prueba1.git
+  156  2017-10-06 12:12:34 git push -u origin1 master
+  157  2017-10-06 12:19:58 git remote add origin2 https://gitlab.com/joserralv/prueba1.git
+  158  2017-10-06 12:55:41 cat .history
+  159  2017-10-06 12:56:01 cat history
+  160  2017-10-06 12:57:53 cat HIST
+  161  2017-10-06 12:58:00 cd ..
+  162  2017-10-06 12:58:07 cat HIST
+  163  2017-10-06 12:58:23 cat history
+  164  2017-10-06 12:58:39 history
+  165  2017-10-06 12:58:51 cd proyecto1
+  166  2017-10-06 12:59:15 git remote
+  167  2017-10-06 12:59:37 ls
+  168  2017-10-06 12:59:46 cd indra1
+  169  2017-10-06 12:59:54 git remote
+  170  2017-10-06 13:00:13 history>>historico.txt
